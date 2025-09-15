@@ -1,7 +1,7 @@
 from flask import Blueprint
 from util.request_handler import *
 from util.response_handler import *
-import service
+import chat.service as service
 
 bp = Blueprint("chat", __name__)
 
