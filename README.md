@@ -1,8 +1,5 @@
 # RAG ChatBot
-This is a simple GPT-oss ChatBot that can:
-- Answer questions
-- Complete tasks
-- Analyse documents (using RAG strategies based on the document nature)
+This is a simple GPT-oss ChatBot that can answer questions based on documents and instructions previously declared for the model to operate on.
 
 ## Stack:
 - Python
@@ -21,4 +18,4 @@ This is a simple GPT-oss ChatBot that can:
 1. ... TODO
 
 ## Future steps
-1. WhatsApp Integration
+1. WhatsApp Integration via interface implementation
