@@ -8,6 +8,7 @@ This is a simple GPT-oss ChatBot that can:
 - Python
 - Flask
 - LangChain
+- Milvus
 - [Groq](https://groq.com/)
 - [Gradio](https://www.gradio.app/)
 
