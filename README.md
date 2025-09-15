@@ -8,12 +8,13 @@ This is a simple GPT-oss ChatBot that can:
 - Python
 - Flask
 - LangChain
-- [Gradio](https://www.gradio.app/)
 - [Groq](https://groq.com/)
+- [Gradio](https://www.gradio.app/)
 
 ## How to run (locally)
-1. Run `pip install -r requirements.txt` (TODO)
-2. ... TODO
+1. Create a `.env` file based on the sample provided and fill it completely
+2. Run `pip install -r requirements.txt` (TODO)
+3. ... TODO
 
 ## How to run (container)
 1. ... TODO
