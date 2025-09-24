@@ -2,8 +2,6 @@ from dotenv import load_dotenv; load_dotenv()
 import os; import sys; sys.path.insert(0, os.path.abspath(os.getenv("PYTHONPATH")))
 
 from app.errors.bad_request import register_error_handlers
-from app.database.extensions import init_extensions
-from app.database.config import Config
 from app.routes import register_routes
 from flask import Blueprint, Flask
 
@@ -17,8 +15,6 @@ def setup_app(flask_app):
 
 def create_app():
     flask_app = Flask(__name__)
-    flask_app.config.from_object(Config)
-    init_extensions(flask_app)
     setup_app(flask_app)
     register_routes(flask_app, bp)
     
